@@ -16,7 +16,7 @@ body {
 }
 
 .page {
-    width: 100%;
+    max-width: 1920px;
     height: 100vh;
     margin: 20px auto;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .subheader-search-wrapped {
-    margin-left: 320px;
+    padding-left: 320px;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -42,6 +42,17 @@ body {
 .subheader-search-wrapped-contact {
     display: flex;
     /* flex-direction:row; */
+}
+.subheader-img-location {
+    position: relative;
+    left: -8px;
+}
+
+.subheader-img-location-text {
+    margin-right: 25px;
+}
+.subheader-img-phone{
+    margin-right: 8px;
 }
 
 .search-input {
