@@ -44,8 +44,7 @@ body {
     /* flex-direction:row; */
 }
 .subheader-img-location {
-    position: relative;
-    left: -8px;
+    margin-right: 8px;
 }
 
 .subheader-img-location-text {
