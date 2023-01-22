@@ -180,7 +180,18 @@ body {
 
 .subheader-main{
     width: 100%;
-    /* color:  #FFFFFF; */
+    color:  #FFFFFF;
      
     background-color: #0C192B;
+}
+
+.subheader-main-wrapped{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    padding: 24px 0; 
 }
