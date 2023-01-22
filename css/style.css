@@ -35,7 +35,7 @@ body {
 
 .container {
     max-width: 1280px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .subheader-search {
@@ -70,9 +70,11 @@ body {
 .subheader-location {
     margin-right: 25px;
 
-    font-weight: 500;
     font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
     color: #FFFFFF;
+    
 }
 
 .subheader-img-phone{
@@ -171,4 +173,14 @@ body {
     padding-right: 4px;
     padding-top: 4px;
     vertical-align: middle;
+}
+
+/* subheader-main */
+/* ================ */
+
+.subheader-main{
+    width: 100%;
+    /* color:  #FFFFFF; */
+     
+    background-color: #0C192B;
 }
