@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    margin: 0;
     
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 1rem;
@@ -88,6 +89,7 @@ body {
 
     font-family: inherit;
     font-size: 14px;
+    font-weight: 400;
     color: #454545;
     
     height: 32px;
@@ -124,7 +126,7 @@ body {
 }
 
 .subheader-search-wrapped-login{
-    width: 137px;
+    width: 134px;
     height: 32px;
     
     cursor: pointer;
