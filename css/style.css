@@ -22,7 +22,7 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 1rem;
     line-height: 22px;
-    background-color: #1E1E1E;
+    /* background-color: #1E1E1E; */
     
 }
 
@@ -40,25 +40,25 @@ body {
 
 .subheader-search {
     width: 100%;
-    padding: 17px 0;
     color:  #FFFFFF;
      
     background-color: #333333;
 }
 
 .subheader-search-wrapped {
-    padding-left: 320px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction:row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+
+    padding: 8px 0; 
 }
 
 .subheader-search-wrapped-contact {
     display: flex;
-    margin-right: 69px;
+    /* margin-right: 69px; */
     /* flex-direction:row; */
 }
 .subheader-img-location {
@@ -70,9 +70,8 @@ body {
 
     font-weight: 500;
     font-size: 15px;
-
-
 }
+
 .subheader-img-phone{
     margin-right: 8px;
 }
@@ -84,7 +83,7 @@ body {
 }
 
 .subheader-search-wrapped-input {
-    margin-right: 69px;
+    /* margin-right: 69px; */
 }
 
 .input-wrapped{
