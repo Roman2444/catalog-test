@@ -57,7 +57,9 @@ body {
 }
 
 .subheader-search-wrapped-contact {
-    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    /* display: flex; */
     /* margin-right: 69px; */
     /* flex-direction:row; */
 }
@@ -65,11 +67,12 @@ body {
     margin-right: 8px;
 }
 
-.subheader-img-location-text {
+.subheader-location {
     margin-right: 25px;
 
     font-weight: 500;
     font-size: 15px;
+    color: #FFFFFF;
 }
 
 .subheader-img-phone{
@@ -77,9 +80,13 @@ body {
 }
 
 .subheader-phone-number{
-    font-weight: 700;
     font-size: 20px;
+    font-weight: 700;
     line-height: 22px;
+    color: #FFFFFF;
+}
+.subheader-phone-number:hover {
+    text-decoration: underline;
 }
 
 .subheader-search-wrapped-input {
