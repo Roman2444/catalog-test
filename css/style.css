@@ -8,11 +8,15 @@
     padding: 0;
 }
 
+html {
+    font-size: 15px;
+}
+
 body {
     
     font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 22px;
 }
 
 .page {
@@ -51,9 +55,20 @@ body {
 
 .subheader-img-location-text {
     margin-right: 25px;
+
+    font-weight: 500;
+    font-size: 15px;
+
+
 }
 .subheader-img-phone{
     margin-right: 8px;
+}
+
+.subheader-phone-number{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .subheader-search-wrapped-input {
@@ -117,7 +132,7 @@ body {
     border-radius: 4px;
 
     font-family: inherit;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 22px;
 
