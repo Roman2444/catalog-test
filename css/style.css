@@ -279,20 +279,19 @@ body {
 }
 
 /* === lOGO ==== */
+ 
+.header-logo-link{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
 
 .main-logo{
     vertical-align: middle;
 }
 
- 
-.header-logo{
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 22px;
-    color: #FFFFFF;
-    padding-right: 15px;
-    
-}
 
 /* === navmenu === */
 
@@ -302,8 +301,8 @@ body {
     /* flex-direction:row; */
     justify-content: space-between;
     width: 100%;
-    min-width: 617px;
-    padding-right: 15px;
+    /* min-width: 617px; */
+    padding-right: 20px;
     /* padding-top: 15px; */
 }
 
@@ -316,7 +315,7 @@ body {
 }
 
 .menu-item:not(:last-child) {
-    margin: 0 15px 0 0;
+    margin: 0 64px 0 0;
 }
 
 /* ==== basket items ===== */
