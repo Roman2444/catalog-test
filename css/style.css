@@ -209,13 +209,13 @@ body {
 }
 
 @media (max-width: 763px) {
-.subheader-phone-number{
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 22px;
-    color: #FFFFFF;
+    .subheader-phone-number{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22px;
+        color: #FFFFFF;
     }
-.subheader-search-wrapped-input {
+    .subheader-search-wrapped-input {
     padding: 0 15px 0 0 ;
     }
 }
