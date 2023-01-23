@@ -204,6 +204,13 @@ body {
     }
 }
 
+@media (max-width: 564px) {
+    .subheader-search-wrapped-input {
+        padding: 0px 15px;
+    }
+
+}
+
 @media (max-width: 390px) {
     .input-wrapped {
         min-width: 300px;  
@@ -224,7 +231,7 @@ body {
         padding: 15px 0;
     }
    .subheader-wrapped-search {
-        padding: 15px 0;
+        padding: 0 0 15px;
     }
 
 }
