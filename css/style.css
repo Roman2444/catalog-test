@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 html {
@@ -68,6 +69,7 @@ body {
 }
 .subheader-img-location {
     margin-right: 8px;
+    vertical-align: text-bottom;
 }
 
 .subheader-location {
@@ -82,6 +84,7 @@ body {
 
 .subheader-img-phone{
     margin-right: 8px;
+    vertical-align: text-bottom;
 }
 
 .subheader-phone-number{
@@ -183,6 +186,9 @@ body {
     vertical-align: middle;
 }
 
+/* media to subheader-search*/
+/* ================================ */
+
 @media (max-width: 1250px) {
     .input-wrapped {
         min-width: 340px;  
@@ -231,7 +237,7 @@ body {
 
 
 /* subheader-main */
-/* ================ */
+/* =================================== */
 
 .subheader-main{
     width: 100%;
@@ -242,11 +248,51 @@ body {
 
 .subheader-main-wrapped{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    vertical-align: middle;
 
-    padding: 24px 0; 
+    padding: 10px 0; 
+}
+
+.main-logo{
+    vertical-align: middle;
+}
+
+ 
+.header-logo{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    
+}
+.logo-name {
+    display: inline-block;
+}
+
+
+.button-buy-value {
+    min-width: 137px;
+    min-height: 48px;
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #333333;
+    
+    cursor: pointer;
+    background: #00EA90;
+    border: 1px solid #00EA90;
+    border-radius: 4px ;
+    padding: 12px 18px;
+}
+.img-basket-picture {
+
+    padding-right: 5px;
+    vertical-align: text-bottom;
 }
