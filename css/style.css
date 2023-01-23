@@ -12,6 +12,12 @@ a {
     color: #FFFFFF;
 }
 
+ul,
+ol,
+li {
+    list-style: none;
+}
+
 html {
     font-size: 15px;
 }
@@ -306,3 +312,31 @@ body {
     padding-right: 5px;
     vertical-align: text-bottom;
 }
+
+.menu_link {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.subheader-main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:row; */
+    justify-content: space-between;
+    width: 100%;
+    min-width: 617px;
+}
+
+.basket-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+/* .menu-item:not(:last-child){
+    margin: 0 300px 0 0;
+} */
+
