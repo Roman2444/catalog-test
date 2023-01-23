@@ -240,6 +240,9 @@ body {
     .input-wrapped {
         min-width: 250px;  
     }
+    .subheader-phone-number{
+        display: none;
+    }
 }
 
 
