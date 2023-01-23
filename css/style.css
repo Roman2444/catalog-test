@@ -365,3 +365,55 @@ body {
     margin-left: 40px;
  
 }
+
+/* media to subheader-main*/
+/* ================================ */
+
+
+@media (max-width: 1131px) {
+    .basket-items {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 848px) {
+    .nav-menu {
+        padding-top: 15px;
+    }
+    .menu-item:not(:last-child) {
+        margin: 0 25px 0 0;
+    }
+    .main-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 659px) {
+    .header-logo-link {
+        display: none;
+    }
+}
+
+@media (max-width: 549px) {
+    .menu-item:not(:last-child) {
+        margin: 0 100px 0 0;
+    }
+    .basket-items {
+
+    }
+}
+
+@media (max-width: 350px) {
+    .schedule, .img-star {
+        display: none;
+    }
+    .button-buy-link {
+        margin: 0;
+    }
+}
+
+@media (max-width: 304px) {
+    .menu-item:not(:last-child) {
+        margin: 0 25px 0 0;
+    }
+}
