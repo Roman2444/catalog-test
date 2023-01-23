@@ -1,7 +1,7 @@
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -157,7 +157,7 @@ body {
 
 }
 
-.subheader-wrapped-search{
+.subheader-wrapped-login{
     padding: 15px 15px 15px 15px;
 }
 
@@ -202,7 +202,7 @@ body {
 }
 
 @media (max-width: 927px) {
-    .subheader-wrapped-search{
+    .subheader-wrapped-login{
         padding: 15px 0;
     }
 }
@@ -239,7 +239,7 @@ body {
     .subheader-search-wrapped-input {
         padding: 15px 0;
     }
-   .subheader-wrapped-search {
+   .subheader-wrapped-login {
         padding: 0 0 15px;
     }
 
