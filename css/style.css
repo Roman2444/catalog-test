@@ -392,13 +392,19 @@ body {
     .header-logo-link {
         display: none;
     }
+    .menu_link {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 549px) {
-    .menu-item:not(:last-child) {
-        margin: 0 100px 0 0;
-    }
-    .basket-items {
+
+    .menu-list {
+        flex-direction:column;
+        text-align: center;
+        vertical-align: middle;
 
     }
 }
