@@ -60,6 +60,7 @@ body {
 
 .subheader-search-wrapped-contact {
     align-items: center;
+    padding: 15px;
     /* text-align: center; */
     /* display: flex; */
     /* margin-right: 69px; */
@@ -102,17 +103,7 @@ body {
     width: 100%;
     min-width: 680px;
     
-}
-
-@media (max-width: 1250px) {
-    .input-wrapped {
-        position: relative;
-        width: 100%;
-        min-width: 340px;  
-    }
-}
-
-    
+}    
 
 .search-input {
     display:block;
@@ -191,6 +182,53 @@ body {
     padding-top: 4px;
     vertical-align: middle;
 }
+
+@media (max-width: 1250px) {
+    .input-wrapped {
+        min-width: 340px;  
+    }
+}
+
+@media (max-width: 763px) {
+.subheader-phone-number{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+}
+
+@media (max-width: 390px) {
+    .input-wrapped {
+        min-width: 300px;  
+    }
+    .subheader-location {
+        display: none;
+        
+    }
+    .subheader-phone-number{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .subheader-search-wrapped-contact {
+        padding: 5px 0;
+    }
+    .subheader-search-wrapped-input {
+        padding: 15px 0;
+    }
+   .subheader-wrapped-search {
+        padding: 15px 0;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .input-wrapped {
+        min-width: 250px;  
+    }
+}
+
 
 /* subheader-main */
 /* ================ */
