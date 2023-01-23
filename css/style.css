@@ -405,7 +405,14 @@ body {
         flex-direction:column;
         text-align: center;
         vertical-align: middle;
-
+    }
+    .menu-item:not(:last-child) {
+        margin: 0;
+    }
+    .menu_link {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 60px;
     }
 }
 
@@ -419,7 +426,5 @@ body {
 }
 
 @media (max-width: 304px) {
-    .menu-item:not(:last-child) {
-        margin: 0 25px 0 0;
-    }
+
 }
