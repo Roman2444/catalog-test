@@ -306,7 +306,7 @@ body {
     /* padding-top: 15px; */
 }
 
-.menu_link {
+.main-menu_link {
     color:#FFFFFF;
     font-weight: 400;
     font-size: 18px;
@@ -392,7 +392,7 @@ body {
     .header-logo-link {
         display: none;
     }
-    .menu_link {
+    .main-menu_link {
         font-weight: 500;
         font-size: 22px;
         line-height: 22px;
@@ -409,7 +409,7 @@ body {
     .main-menu-item:not(:last-child) {
         margin: 0;
     }
-    .menu_link {
+    .main-menu_link {
         font-weight: 500;
         font-size: 30px;
         line-height: 60px;
