@@ -295,7 +295,7 @@ body {
 
 /* === navmenu === */
 
-.menu-list {
+.main-menu-list {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction:row; */
@@ -314,7 +314,7 @@ body {
     text-transform: uppercase;
 }
 
-.menu-item:not(:last-child) {
+.main-menu-item:not(:last-child) {
     margin: 0 64px 0 0;
 }
 
@@ -380,7 +380,7 @@ body {
     .nav-menu {
         padding-top: 15px;
     }
-    .menu-item:not(:last-child) {
+    .main-menu-item:not(:last-child) {
         margin: 0 25px 0 0;
     }
     .main-logo {
@@ -401,12 +401,12 @@ body {
 
 @media (max-width: 549px) {
 
-    .menu-list {
+    .main-menu-list {
         flex-direction:column;
         text-align: center;
         vertical-align: middle;
     }
-    .menu-item:not(:last-child) {
+    .main-menu-item:not(:last-child) {
         margin: 0;
     }
     .menu_link {
@@ -428,3 +428,13 @@ body {
 @media (max-width: 304px) {
 
 }
+
+
+/* временно отлючил стили для меню*/
+/* ========================= */
+.sub-menu-list {
+    display: none;
+}
+
+/* стилизация выпадающего меню */
+/* ============================ */
