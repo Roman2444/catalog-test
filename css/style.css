@@ -437,16 +437,6 @@ body {
 }
 
 
-/* временно отлючил стили для меню*/
-/* ========================= */
-/* .sub-menu-list {
-    display: none;
-} */
-
-.sub-sub-menu-list {
-    display: none;
-}
-
 /* стилизация выпадающего меню */
 /* ============================ */
 
@@ -482,11 +472,11 @@ body {
     position:absolute;
     display: none;
     width: 324px; 
-    /* min-height: 575px; */
+    min-height: 580px;
     background-color: #ffffff;
     /* z-index: 1; */
     top: 0px;
-    left: 323px;
+    left: 100%;
     padding: 0px;
     margin: 0px;
 
@@ -499,18 +489,21 @@ body {
     position:absolute;
     display: none;
     width: 431px; 
+    min-height: 580px;
     background-color: #ffffff;
     /* z-index: 1; */
     top: 0px;
-    left: 323px;
+    left: 100%;
     padding: 0px;
     margin: 0px;
 
     border: 1px solid #DCE1E6;
 }
 
-.sub-menu-list  a {
+.sub-menu-list a {
     display: block;
+    border-bottom: 1px solid #DCE1E6;
+    margin-bottom: -1px;
 
     color: #454545;
     font-size: 15px;
@@ -528,7 +521,6 @@ body {
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
-
 }
 
 /* активация скрытых списков */
@@ -546,4 +538,10 @@ body {
 
 .sub-menu-list  a:hover {
     background-color: #DCE1E6;
+}
+
+ .sub-menu-list, 
+ .sub-sub-menu-list, 
+ .sub-sub-sub-menu-list {
+    display: block;
 }
