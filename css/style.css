@@ -19,7 +19,7 @@ li {
 }
 
 html {
-    font-size: 15px;
+
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     height: 100%;
     
     font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 22px;
     /* background-color: #1E1E1E; */
     
@@ -35,8 +35,8 @@ body {
 
 .page-wrapper {
     min-height: 100%;
-    overflow: hidden;
-    /* background-color: #FFFFFF; */
+    /* overflow: hidden; */
+    /* background-color: #b4d414; */
 }
 
 .container {
@@ -44,6 +44,10 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: content-box;
+}
+
+.content {
+    min-height: 872px;
 }
 
 /* subheader-search */
@@ -436,9 +440,9 @@ body {
 
 /* временно отлючил стили для меню*/
 /* ========================= */
-.sub-menu-list {
+/* .sub-menu-list {
     display: none;
-}
+} */
 
 .sub-sub-menu-list {
     display: none;
@@ -446,3 +450,51 @@ body {
 
 /* стилизация выпадающего меню */
 /* ============================ */
+
+/* увеличил паддинг, чтобы при наведении на ссылку
+упел навести на выпадающий список */
+.main-menu-list > li > a {
+    padding: 40px 0;
+}
+
+.main-menu-list > li {
+    position: relative;
+}
+
+.sub-menu-list {
+    position:absolute;
+
+
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    height:max-content;
+    
+    background-color: #a07474;
+    z-index: 555;
+    top: 0;
+    /* top: 162px; */
+    /* left: 536px; */
+    padding: 0px;
+    margin: 0px;
+
+    border: 1px solid rgb(61, 21, 181)
+
+}
+
+.sub-menu-list  a {
+    display: block;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px; 
+    width: 100%;
+    padding: 11px;
+    z-index: 655;
+
+}
+
+.main-menu-list > li:hover .sub-menu-list {
+    display: block;
+}
