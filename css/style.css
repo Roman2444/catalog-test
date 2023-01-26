@@ -440,6 +440,10 @@ body {
 /* стилизация выпадающего меню */
 /* ============================ */
 
+.img-menu {
+    max-width: 100%;
+    display: block;
+}
 /* увеличил паддинг, чтобы при наведении на ссылку
 упел навести на выпадающий список */
 .main-menu-list > li > a {
@@ -522,6 +526,13 @@ body {
     line-height: 16px;
     font-weight: 400;
 }
+.sub-sub-sub-menu-list > li > a {
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 400;
+
+    border: none;
+}
 
 /* активация скрытых списков */
 .main-menu-list > li:hover .sub-menu-list {
@@ -540,8 +551,8 @@ body {
     background-color: #DCE1E6;
 }
 
- .sub-menu-list, 
+ /* .sub-menu-list, 
  .sub-sub-menu-list, 
  .sub-sub-sub-menu-list {
     display: block;
-}
+} */
