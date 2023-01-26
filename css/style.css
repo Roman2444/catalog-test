@@ -306,6 +306,10 @@ body {
     /* padding-top: 15px; */
 }
 
+.main-menu-list li {
+    white-space: nowrap;
+}
+
 .main-menu_link {
     color:#FFFFFF;
     font-weight: 400;
@@ -433,6 +437,10 @@ body {
 /* временно отлючил стили для меню*/
 /* ========================= */
 .sub-menu-list {
+    display: none;
+}
+
+.sub-sub-menu-list {
     display: none;
 }
 
