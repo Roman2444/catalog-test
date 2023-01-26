@@ -304,12 +304,9 @@ body {
 .main-menu-list {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction:row; */
     justify-content: space-between;
     width: 100%;
-    /* min-width: 617px; */
     padding-right: 20px;
-    /* padding-top: 15px; */
 }
 
 .main-menu-list li {
@@ -463,19 +460,53 @@ body {
     position: relative;
 }
 
+/* первый уровень вложенности 
+каталог товаров */
 .sub-menu-list {
     position:absolute;
     display: none;
     width: 324px; 
     background-color: #ffffff;
-    z-index: 1;
-    top: 52px;
+    /* z-index: 1; */
+    top: 53px;
     left: -60px;
     padding: 0px;
     margin: 0px;
 
-    border: 1px solid rgb(61, 21, 181)
+    border: 1px solid #DCE1E6;
+}
 
+/* второй уровень вложенности
+Инструмент, устройства измерения и средства защиты */
+.sub-sub-menu-list {
+    position:absolute;
+    display: none;
+    width: 324px; 
+    /* min-height: 575px; */
+    background-color: #ffffff;
+    /* z-index: 1; */
+    top: 0px;
+    left: 323px;
+    padding: 0px;
+    margin: 0px;
+
+    border: 1px solid #DCE1E6;
+}
+
+/* третий уровень вложенности
+Инструмент, устройства измерения и средства защиты */
+.sub-sub-sub-menu-list {
+    position:absolute;
+    display: none;
+    width: 431px; 
+    background-color: #ffffff;
+    /* z-index: 1; */
+    top: 0px;
+    left: 323px;
+    padding: 0px;
+    margin: 0px;
+
+    border: 1px solid #DCE1E6;
 }
 
 .sub-menu-list  a {
@@ -493,7 +524,23 @@ body {
     white-space:break-spaces;
 }
 
+.sub-sub-menu-list > li > a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+
+}
+
+/* активация скрытых списков */
 .main-menu-list > li:hover .sub-menu-list {
+    display: block;
+}
+
+.sub-menu-list > li:hover .sub-sub-menu-list {
+    display: block;
+}
+
+.sub-sub-menu-list > li:hover .sub-sub-sub-menu-list {
     display: block;
 }
 
