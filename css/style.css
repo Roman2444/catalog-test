@@ -508,15 +508,18 @@ body {
     margin-bottom: -1px;
 
     color: #454545;
-    font-size: 15px;
-    line-height: 18px; 
-    font-weight: 400;
-    text-transform: uppercase;
 
     width: 100%;
     padding: 11px 28px;
     text-align: left;
     white-space:break-spaces;
+}
+
+.sub-menu-list > li > a {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .sub-sub-menu-list > li > a {
@@ -528,8 +531,21 @@ body {
     font-size: 14px;
     line-height: 48px;
     font-weight: 400;
+}
 
+.sub-sub-sub-menu-list > li:first-child > a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;  
+}
+
+/* убрать подчеркивание у всех кроме 1 дочернего элемента */
+.sub-sub-sub-menu-list > li:not(:first-child) > a {
     border: none;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 400;
 }
 
 /* активация скрытых списков */
@@ -549,8 +565,8 @@ body {
     background-color: #DCE1E6;
 }
 
- /* .sub-menu-list, 
+ .sub-menu-list, 
  .sub-sub-menu-list, 
  .sub-sub-sub-menu-list {
     display: block;
-} */
+}
