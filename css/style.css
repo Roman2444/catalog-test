@@ -34,7 +34,6 @@ body {
 .page-wrapper {
     min-height: 100%;
     /* overflow: hidden; */
-    /* background-color: #b4d414; */
 }
 
 .container {
@@ -540,7 +539,7 @@ body {
     text-transform: uppercase;  
 }
 
-/* убрать подчеркивание у всех кроме 1 дочернего элемента */
+/* убрать подчеркивание и задать стити всем кроме 1 дочернего элемента */
 .sub-sub-sub-menu-list > li:not(:first-child) > a {
     border: none;
     font-size: 14px;
@@ -565,8 +564,8 @@ body {
     background-color: #DCE1E6;
 }
 
- .sub-menu-list, 
+ /* .sub-menu-list, 
  .sub-sub-menu-list, 
  .sub-sub-sub-menu-list {
     display: block;
-}
+} */
