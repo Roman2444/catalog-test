@@ -72,10 +72,6 @@ body {
 .subheader-search-wrapped-contact {
     align-items: center;
     padding: 17px 0;
-    /* text-align: center; */
-    /* display: flex; */
-    /* margin-right: 69px; */
-    /* flex-direction:row; */
 }
 .subheader-img-location {
     margin-right: 8px;
@@ -459,7 +455,7 @@ body {
     width: 324px; 
     background-color: #ffffff;
     /* z-index: 1; */
-    top: 53px;
+    top: 59px;
     left: -60px;
     padding: 0px;
     margin: 0px;
