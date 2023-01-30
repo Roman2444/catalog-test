@@ -71,7 +71,7 @@ body {
 
 .subheader-search-wrapped-contact {
     align-items: center;
-    padding: 15px 0;
+    padding: 17px 0;
     /* text-align: center; */
     /* display: flex; */
     /* margin-right: 69px; */
@@ -162,7 +162,7 @@ body {
 }
 
 .subheader-wrapped-login{
-    padding: 15px 15px 15px 15px;
+    padding: 12px 15px 12px 15px;
 }
 
 .subheader-wrapped-login-link{
