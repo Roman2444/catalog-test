@@ -499,8 +499,8 @@ body {
 
 .sub-menu-list a {
     display: block;
-    border-bottom: 1px solid #DCE1E6;
-    margin-bottom: -1px;
+    /* border-bottom: 1px solid #DCE1E6; */
+    /* margin-bottom: -1px; */
 
     color: #454545;
 
@@ -508,6 +508,20 @@ body {
     padding: 11px 28px;
     text-align: left;
     white-space:break-spaces;
+    position: relative;
+}
+
+.sub-menu-list > li >  a:after, 
+.sub-sub-menu-list > li > a:after  {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    content: '';
+    display: block;
+    width: 293px;
+    height: 1px;
+    background: #DCE1E6;
+
 }
 
 .sub-menu-list > li > a {
@@ -535,9 +549,8 @@ body {
     text-transform: uppercase;  
 }
 
-/* убрать подчеркивание и задать стити всем кроме 1 дочернего элемента */
+/* задать стити всем кроме 1 дочернего элемента */
 .sub-sub-sub-menu-list > li:not(:first-child) > a {
-    border: none;
     font-size: 14px;
     line-height: 48px;
     font-weight: 400;
@@ -560,8 +573,8 @@ body {
     background-color: #DCE1E6;
 }
 
- /* .sub-menu-list, 
+ .sub-menu-list, 
  .sub-sub-menu-list, 
  .sub-sub-sub-menu-list {
     display: block;
-} */
+}
