@@ -505,7 +505,7 @@ body {
     color: #454545;
 
     width: 100%;
-    padding: 11px 28px;
+    padding: 11px 50px 11px 28px;
     text-align: left;
     white-space:break-spaces;
     position: relative;
@@ -513,6 +513,21 @@ body {
 
 .sub-menu-list > li >  a:after, 
 .sub-sub-menu-list > li > a:after  {
+    position: absolute;
+    bottom: 40%;
+    right: 25px;
+       
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #888888;
+    border-width: 1px 1px 0 0;
+    rotate: 45deg;
+}
+
+.sub-menu-list > li >  a:before, 
+.sub-sub-menu-list > li > a:before  {
     position: absolute;
     top: 0px;
     right: 15px;
